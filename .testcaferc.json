@@ -1,0 +1,7 @@
+{ 
+    "concurrency": 5,
+    "selectorTimeOut": 5000,
+    "assertionTimeOut": 5000,
+    "pageLoadTimeOut": 5000,
+    "speed": 1
+} 

@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "Saucedemo Assessment Session 1",
+  "main": "index.js",
+  "scripts": {
+    "test-sauce-chrome": "testcafe chrome ./pagemodel/tests",
+    "test-sauce-firefox": "testcafe firefox ./pagemodel/tests",
+    "test-sauce-multiple": "testcafe chrome,firefox ./pagemodel/tests",
+    "test-sauce-chrome-report": "testcafe chrome ./pagemodel/tests --reporter html:reports/report.html"
+  },
+  "author": "Alonso Castellon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe": "1.12.0",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
